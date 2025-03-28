@@ -4,10 +4,9 @@
 }
 
 .repeat-btn {
-    color: white;
-    
+    color: white;   
 }
 
-.repeat-btn:hover {
-    
+.loop-video {
+    color: red
 }
