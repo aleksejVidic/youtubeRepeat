@@ -11,13 +11,15 @@
     "content_scripts": [
         {
             "matches": ["https://*.youtube.com/*"],
-            "js": ["contentScript.js"]
+            "js": ["contentScript.js"],
+            "run_at": "document_end"
         }
     ],
     "web_accessible_resources": [
         {
             "resources": [
-                "assets/youtubeRepeat.png"
+                "assets/repeat.png",
+                "assets/rep.svg"
             ],
             "matches": ["https://*.youtube.com/*"]
         }
